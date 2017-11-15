@@ -1,18 +1,38 @@
 What happens when you initialize a repository? Why do you need to do it?
+you are introducing git and enabled to versioning
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+include things stepwise. otherwise not sure
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+By using git diff and making sure the changes refer to one logical change
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+When experimenting features or changes.
 
 How do the diagrams help you visualize the branch structure?
+it helps, but it is still unclear
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+it results in one branch
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+automatic will speed up process but can generate errors
+
+commands:
+git diff (compare to staging)
+git diff --staged ( compare staging with commit)
+git diff oldCommit newCommit
+git branch 
+git branch branchName
+git checkout branchName
+git log --graph --oneline master coins
+git checkout -b newBranchName IS SAME AS git branch newBranchName + git checkout newBranchName
+git show commitId ( shows changes compared to parent commit)
+git merge disapperingBranch remainingBranch
+git merge --abort
