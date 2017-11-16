@@ -36,3 +36,7 @@ git checkout -b newBranchName IS SAME AS git branch newBranchName + git checkout
 git show commitId ( shows changes compared to parent commit)
 git merge disapperingBranch remainingBranch
 git merge --abort
+git remote ( to see remote repositories)
+git remote -v ( verbose version )
+git remote add origin remoteUrl ( add and name a repository )
+git push -u origin master ( push the local master branch to the origin remote repository)
