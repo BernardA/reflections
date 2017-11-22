@@ -22,7 +22,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When trying new features or collaborating. 
 
 git pull origin master ( pull latest version from remote )
 git pull = git fetch + git merge
